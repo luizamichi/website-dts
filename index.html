@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>Davi Tavares Santos</title>
+
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+		<link href="img/photographer.svg" rel="icon"/>
+		<link href="css/style.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+		<style>
+			body, h1, h2, h3, h4, h5, h6 {
+				font-family: "Montserrat", sans-serif
+			}
+
+			.row-padding img {
+				margin-bottom: 12px
+			}
+
+			/* Define o menu lateral com 120px de largura */
+			.sidebar {
+				width: 120px;
+				background: #222
+			}
+
+			/* Adiciona uma margem à esquerda do conteúdo da página (120px) */
+			#main {
+				margin-left: 120px
+			}
+
+			/* Remove a margem em dispositivos com tela pequena */
+			@media only screen and (max-width: 600px) {
+				#main {
+					margin-left: 0
+				}
+			}
+		</style>
+	</head>
+
+	<body class="black">
+		<!-- Menu lateral (oculto em telas pequenas) -->
+		<nav class="bar-block center hide-small sidebar small">
+			<!-- Imagem no canto superior esquerdo -->
+			<img alt="Davi Tavares Santos" src="img/avatar_photographer.jpg" style="width:100%;"/>
+
+			<a href="#home" class="bar-item black button padding-large">
+				<i class="fa fa-home xxlarge"></i>
+				<p>HOME</p>
+			</a>
+			<a href="#about" class="bar-item button hover-black padding-large">
+				<i class="fa fa-user xxlarge"></i>
+				<p>SOBRE</p>
+			</a>
+			<a href="#photos" class="bar-item button hover-black padding-large">
+				<i class="fa fa-eye xxlarge"></i>
+				<p>FOTOS</p>
+			</a>
+			<a href="#contact" class="bar-item button hover-black padding-large">
+				<i class="fa fa-envelope xxlarge"></i>
+				<p>CONTATO</p>
+			</a>
+		</nav>
+
+		<!-- Menu superior para telas pequenas (oculto em telas médias e grandes) -->
+		<div class="hide-large hide-medium top">
+			<div class="bar black center hover-opacity-off opacity small">
+				<a class="bar-item button" href="#home" style="width:25% !important">HOME</a>
+				<a class="bar-item button" href="#about" style="width:25% !important">SOBRE</a>
+				<a class="bar-item button" href="#photos" style="width:25% !important">FOTOS</a>
+				<a class="bar-item button" href="#contact" style="width:25% !important">CONTATO</a>
+			</div>
+		</div>
+
+		<!-- Conteúdo -->
+		<div class="padding-large" id="main">
+			<!-- Sessão "home" -->
+			<header class="black center container padding-32" id="home">
+				<h1 class="jumbo">Davi Tavares Santos</h1>
+				<p>Fotógrafo, editor de imagem e vídeo, cinegrafista e designer gráfico.</p>
+				<img alt="Davi Tavares Santos" class="image" src="img/photographer.jpg" width="750"/>
+			</header>
+
+			<!-- Seção "sobre" -->
+			<div class="content justify padding-64 text-grey" id="about">
+				<h2 class="text-light-grey">Sobre</h2>
+				<hr class="opacity" style="width:200px"/>
+				<p>Meu nome é <strong>Davi</strong>, trabalho com imagens e vídeos há mais de 10 anos, fazendo trabalhos principalmente na área artística, de books fotográficos e moda.</p>
+				<p>Nasci e me criei no mundo da fotografia, e logo percebi que poderia fazer a diferença na vida das pessoas com esta forma de expressão.</p>
+				<p>Assumi a fotografia não só como profissão, mas como estilo de vida!</p>
+				<h3 class="padding-16 text-light-grey">Serviços</h3>
+				<p class="wide">Fotografia</p>
+				<div class="white">
+					<div class="dark-grey" style="height:28px;width:70%"></div>
+				</div>
+				<p class="wide">Filmagens</p>
+				<div class="white">
+					<div class="dark-grey" style="height:28px;width:20%"></div>
+				</div>
+				<p class="wide">Criações gráficas</p>
+				<div class="white">
+					<div class="dark-grey" style="height:28px;width:30%"></div>
+				</div>
+				<p class="wide">Edições</p>
+				<div class="white">
+					<div class="dark-grey" style="height:28px;width:95%"></div>
+				</div>
+				<br/>
+
+				<!-- Subseção "serviços" -->
+				<div class="center light-grey padding-16 row section">
+					<div class="quarter section">
+						<span class="xlarge">1.110+</span>
+						<br/>
+						Fotografias
+					</div>
+					<div class="quarter section">
+						<span class="xlarge">350+</span>
+						<br/>
+						Filmagens
+					</div>
+					<div class="quarter section">
+						<span class="xlarge">500+</span>
+						<br/>
+						Criações gráficas
+					</div>
+					<div class="quarter section">
+						<span class="xlarge">1.500+</span>
+						<br/>
+						Edições
+					</div>
+				</div>
+			</div>
+
+			<!-- Seção "fotos" -->
+			<div class="content padding-64" id="photos">
+				<h2 class="text-light-grey">Fotos</h2>
+				<hr class="opacity" style="width:200px"/>
+
+				<!-- Grade para fotos -->
+				<div class="row-padding" style="margin:0 -16px">
+					<div class="half">
+						<img alt="Peneirador de café" src="img/coffee_sieve.jpg" style="width:100%"/>
+						<img alt="Pia batismal" src="img/baptismal_font.jpg" style="width:100%"/>
+						<img alt="Lago dos patos" src="img/duck_pond.jpg" style="width:100%"/>
+					</div>
+					<div class="half">
+						<img alt="Círculo de faíscas" src="img/circle_of_sparks.jpg" style="width:100%"/>
+						<img alt="Fanfarra municipal" src="img/fanfare.jpg" style="width:100%"/>
+						<img alt="Terminal de Londrina" src="img/london_terminal.jpg" style="width:100%"/>
+						<img alt="Alvorada do Sul" src="img/night_city.jpg" style="width:100%"/>
+					</div>
+				</div>
+			</div>
+
+			<!-- Seção "contato" -->
+			<div class="content padding-64 text-grey" id="contact">
+				<h2 class="text-light-grey">Contato</h2>
+				<hr style="width:200px" class="opacity"/>
+				<div class="section">
+					<p><i class="fa fa-fw fa-map-marker margin-right text-white xxlarge"></i>Alvorada do Sul, PR</p>
+					<p><i class="fa fa-fw fa-location-arrow margin-right text-white xxlarge"></i>Rua Doutor Mário Bastos Cruz, 386</p>
+					<p><i class="fa fa-fw fa-phone margin-right text-white xxlarge"></i>(43) 3661-1414</p>
+					<p><i class="fa fa-envelope fa-fw margin-right text-white xxlarge"></i>davizao_tavares@hotmail.com</p>
+				</div>
+				<br/>
+				<p>Entrarei em contato. Me mande uma mensagem:</p>
+
+				<!-- Formulário de contato -->
+				<form action="mail.php" method="post">
+					<p><input class="input padding-16" minlength="3" type="text" placeholder="Nome" required name="name"/></p>
+					<p><input class="input padding-16" type="email" placeholder="E-mail" required name="email"/></p>
+					<p><input class="input padding-16" minlength="5" type="text" placeholder="Assunto" required name="subject"/></p>
+					<p><input class="input padding-16" minlength="10" type="text" placeholder="Mensagem" required name="message"/></p>
+					<p>
+						<button class="button light-grey padding-large" type="submit">
+							<i class="fa fa-paper-plane"></i>
+							ENVIAR MENSAGEM
+						</button>
+					</p>
+				</form>
+			</div>
+
+			<!-- Rodapé -->
+			<footer class="content padding-64 text-grey xlarge">
+				<a href="https://www.facebook.com/davitavaresantos" target="_blank" title="Facebook"><i class="fa fa-facebook-official hover-opacity"></i></a>
+				<a href="https://www.instagram.com/davitavaressantos" target="_blank" title="Instagram"><i class="fa fa-instagram hover-opacity"></i></a>
+				<a href="https://vimeo.com/davitsantos" target="_blank" title="Vimeo"><i class="fa fa-vimeo hover-opacity"></i></a>
+				<a href="https://www.youtube.com/@davitavaresdossantos2685" target="_blank" title="YouTube"><i class="fa fa-youtube hover-opacity"></i></a>
+				<p class="medium">Desenvolvido por <a class="hover-text-green" href="https://luizamichi.com.br" target="_blank">Luiz Joaquim Aderaldo Amichi</a></p>
+			</footer>
+		</div>
+
+		<!-- Animação do menu conforme a barra de rolagem -->
+		<script>
+			var display = "a[href='#home']";
+
+			window.addEventListener("scroll", function (evento) {
+				if (0 <= this.scrollY && this.scrollY < document.getElementById("about").offsetTop - 1 && display != "a[href='#home']") {
+					document.querySelector("a[href='#home']").classList.add("black");
+					document.querySelector("a[href='#home']").classList.remove("hover-black");
+					document.querySelector(display).classList.remove("black");
+					display = "a[href='#home']";
+				}
+
+				else if (document.getElementById("about").offsetTop - 1 <= this.scrollY && this.scrollY < document.getElementById("photos").offsetTop - 1 && display != "a[href='#about']") {
+					document.querySelector("a[href='#about']").classList.add("black");
+					document.querySelector("a[href='#about']").classList.remove("hover-black");
+					document.querySelector(display).classList.remove("black");
+					display = "a[href='#about']";
+				}
+
+				else if (document.getElementById("photos").offsetTop - 1 <= this.scrollY && this.scrollY < document.getElementById("contact").offsetTop - 1 && display != "a[href='#photos']") {
+					document.querySelector("a[href='#photos']").classList.add("black");
+					document.querySelector("a[href='#photos']").classList.remove("hover-black");
+					document.querySelector(display).classList.remove("black");
+					display = "a[href='#photos']";
+				}
+
+				else if (document.getElementById("contact").offsetTop - 1 <= this.scrollY && display != "a[href='#contact']") {
+					document.querySelector("a[href='#contact']").classList.add("black");
+					document.querySelector("a[href='#contact']").classList.remove("hover-black");
+					document.querySelector(display).classList.remove("black");
+					display = "a[href='#contact']";
+				}
+			});
+		</script>
+	</body>
+</html>
